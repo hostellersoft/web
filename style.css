@@ -210,7 +210,8 @@ button:hover {
 }
 
 #icon {
-    size: 20%;
+    max-width: 35%
+    height: auto;
 }
 
 footer {
