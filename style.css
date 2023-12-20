@@ -209,6 +209,10 @@ button:hover {
     top: -75px;
 }
 
+#icon {
+    size: 40%;
+}
+
 footer {
     background-color: #222;
     height: 250px;
