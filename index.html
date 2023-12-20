@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Icon.ico">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Hostellers</h1>
+        <span id="header-box">
+            <a id="header-home" href="#home">Home</a>
+            <a id="header-skills" href="#skills">Services</a>
+            <a id="header-about-us" href="#about-us">About us</a>
+            <a id="header-contact-us" href="#contact-us">Contact us</a>
+        </span>
+
+        <br><br><br><br><br><br>
+        
+        <span id="header-tag-line"> <b>Elevating</b>  <br>Tech Excellence 🚀</span><br><br>
+        <span id="header-sub-tag-line">Meet Hostellers, a skilled group of tech enthusiasts</span><br><br><br>
+        <a id="start-exploring" href="#home"> Start Exploring</a>
+        <br>
+    </header>
+    <hr>
+
+    <div id="home">
+        <div id="home-text">
+            <h1>What is Hostellers?</h1><br><br>
+            <p>
+                Hostellers is not just a service provider; it's your dedicated partner in transforming ideas into digital reality. <br><br>
+                Specializing in website development, software solutions, Flutter and Android app development, we are your go-to team for creating tailored and innovative digital experiences. <br><br>
+                Tired of compromises? At Hostellers, we prioritize excellence with a commitment to delivering top-notch solutions without the hassle of ads or paid subscriptions. Elevate your digital presence with Hostellers – where every project is a journey towards excellence. 
+                <br><br> Welcome to a world of seamless, premium digital solutions.</p>
+        </div>
+        <img id="icon" src="Icon.png" alt="logo">
+    </div>
+    <hr>
+
+    <div id="skills">
+        <h1 id="skills-head">Services</h1>
+        <ul id="skills-list-first">
+            <li>Web Development</li>
+            <li>Android Developmet</li>
+            <li>Rebuilding Websites</li>
+            <li>Flutter Development</li>
+            <li>Web Designing</li>
+        </ul>
+        <ul id="skills-list-second">
+            <li>Web Designing</li>
+            <li>Figma</li>
+            <li>Static Website</li>
+            <li>Python</li>
+            <li>NodeJS</li>
+        </ul>
+    </div>
+    <hr>
+
+
+    <div id="about-us">
+        <section id="about-us-first">
+            <h1>Who We Are</h1>
+            <p>
+                Hostellers is not just a name; it's a testament to our diverse backgrounds, shared experiences, and a commitment to excellence. As a group of tech enthusiasts, we thrive on challenges and embrace the collaborative spirit that defines hostel life.
+            </p>
+        </section>
+        <section id="about-us-second">
+            <h1>Our Approach:</h1>
+            <p>
+                At Hostellers, we believe in turning each project into a memorable journey. Our collaborative mindset ensures that every challenge is an opportunity, every line of code is a stroke of art, and every client interaction is a chance to build lasting relationships.
+            </p>
+        </section>
+        <div id="contact-us">
+            <h1 id="contact-us-head">Contact Us</h1><br>
+            <h3 id="contact-us-head">Fill the form after clicking the Button <br>We will reach out to you the next moment.</h3><br><br>
+            <a href="https://formsubmit.co/el/sotuwo"><button>Click here</button></a>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <p> <a href="https://www.linkedin.com/company/hostellers-soft/">Linkedin</a>  | <a href="https://github.com/hostellersoft">Github</a>  | <a href="https://formsubmit.co/el/sotuwo">Gmail</a> </p>
+        <br>
+        <p>Copyright © 2023-2025 Hostellers. All rights reserved.</p> 
+        <p>Made with ♥ by Hostellers</p> <br><br><br>
+        <p>Design by Aryan Rathod</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("a").on('click', function(event) {
+
+        if (this.hash !== "") {
+        event.preventDefault();
+
+        var hash = this.hash;
+
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+            window.location.hash = hash;
+        });
+        } 
+    });
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+header, #skills {
+    background-color: #010111;
+    color: aliceblue;
+    margin: 0;
+    padding: 40px;
+    height: 650px;
+}
+
+a:link {
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:visited {
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(124, 185, 238);
+}
+
+#logo {
+    size: 100px;
+}
+
+#header-tag-line {
+    font-size: 100px;
+    line-height: 90px;
+}
+
+#header-sub-tag-line {
+    font-size: 25px;
+}
+
+#header-box {
+    position: absolute;
+    left: 60%;
+    top: 7%;
+}
+
+ #start-exploring {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 15px 20px;
+    background-color: #010111;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ #home {
+    height: 650px;
+ }
+
+ #icon {
+    position: absolute;
+    left: 50%;
+ }
+
+ #home-text {
+    position: absolute;
+    padding: 4% 12%;
+    width: 35%;
+ }
+
+#about-us {
+    height: 650px;
+}
+
+ #about-us-first {
+    position: absolute;
+    width: 40%;
+    padding: 65px 110px;
+ }
+
+ #about-us-second {
+    position: absolute;
+    width: 40%;
+    padding: 65px 110px;
+    left: 45%;
+ }
+
+ #skills-list-first {
+    padding: 50px 120px;
+    padding-left: 200px;
+    line-height: 90px;
+    position: absolute;
+    font-size: x-large;
+    width: 20%;
+ }
+
+ #skills-list-second {
+    padding: 50px 120px;
+    line-height: 90px;
+    position: absolute;
+    font-size: x-large;
+    width: 20%;
+    left: 55%;
+ }
+
+ ul {
+    list-style: square;
+ }
+
+ #skills-head {
+    padding: 10px 100px;
+ }
+
+#contact-us {
+    max-width: 600px;
+    height: 230px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 300px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #010111;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #010111;
+    border-radius: 5px;
+    color: #010111;
+}
+
+button {
+    background-color: #010111;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+#contact-us-head {
+    color: #010111;
+}
+
+#form-unit-1 {
+    width: 40%;
+    position: relative;
+    top: 25px;
+}
+
+#form-unit-2 {
+    width: 40%;
+    position: relative;
+    top: 45px;
+}
+
+#form-unit-3 {
+    width: 40%;
+    position: relative;
+    top: -88px;
+    left: 56%;
+}
+
+#form-unit-4 {
+    width: 40%;
+    position: relative;
+    top: -68px;
+    left: 56%;
+}
+
+#form-unit-10 {
+    height: 100px;
+}
+
+#form-unit-5, #form-unit-6, #form-unit-7, #form-unit-8, #form-unit-9, #form-unit-10, #form-unit-11 {
+    position: relative;
+    top: -75px;
+}
+
+footer {
+    background-color: #222;
+    height: 250px;
+    padding: 50px 50px 0px 50px;
+    color: aliceblue;
+    text-align: center;
+}
